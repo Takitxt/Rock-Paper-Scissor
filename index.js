@@ -36,7 +36,7 @@ function userclick(button){
     } else if (button === 'Scissor') {
         c = 'Scissor';
     }
-    console.log(c);
+    
     userimg(c);
     computerclick();
 
@@ -96,7 +96,7 @@ function ress() {
         score.Tie++;
     }
    
-    console.log(score);
+    
     document.querySelector('.nk').innerHTML =res;
     document.querySelector('.rk').innerHTML ='You chose '+ c;
     document.querySelector('.comp-result2').innerHTML= 'Computer chose '+ x;
