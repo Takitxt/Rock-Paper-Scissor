@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+
+</head> 
+
+ 
+<body>
+
+
+    <div class="heading">
+        <p>Rock-Paper-Scissor</p>
+    </div>
+    
+    <div class="line">
+        <div class="text">
+            <p class="heading-text">
+                First to 3 Wins!
+            </p>
+        </div>
+    </div>
+    
+
+    <div class="main">
+        <div class="you">
+            <div class="h1">
+                <div class="you-heading"><h1>You</h1></div>
+                <div class="paragraph-1">
+                    <p class="para"></p>
+                </div>
+            
+            </div>
+        </div>
+        <div class="computer">
+            <div class="h1">
+                <div class="comp-heading"><h1>Computer</h1></div>
+                <div class="paragraph-2">
+                    <p class="para-2"></p>
+                </div>
+            </div>
+        </div>
+        <div class="result-one"><p class="nk"></p></div>
+
+        
+    </div>
+
+    <section class="secondsection">
+        <div class="imagesection">
+            <div class="you">
+                <div class="img">
+                    <p><img id="image-user" src="" alt=""></p>
+
+                </div>
+
+
+            </div>
+
+            <div class="computer">
+                <div class="img">
+                    <p><img id="image-tag" src="" alt=""></p>
+
+                </div>
+
+            </div>
+        <div class="resultsection">
+            <div class="your-result">
+                <p class="rk"></p>
+            </div>
+            <div class="computer-result">
+                <p class="comp-result2"></p>
+            </div>
+        
+        
+        </div>
+
+
+            
+
+    </section>
+
+    <div class="reset-button-div">
+        <button type="button" class="btn btn-dark Reset" onclick="
+        resetscore();
+
+        ">Reset Score</button>
+        
+    </div>
+    
+
+    <section class="buttonssection">
+        <div class="buttons">
+
+
+            <div class="rock-div">
+                <button type="button" class="Rock" onclick="
+            userclick('Rock');
+            ">Rock</button>
+            </div>
+            <div class="paper-div">
+                <button type="button" class="Paper" onclick="
+            
+            userclick('Paper');
+            
+            
+            ">Paper</button>
+            </div>
+            <div class="scissor-div">
+                <button type="button" class="scissor" onclick="
+                
+        
+        
+            
+            userclick('Scissor');
+            ">Scissor</button>
+            </div>
+        
+        
+            
+        </div>
+    </section>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          
+          <h2 id="popup-message"></h2>
+        </div>
+      </div>
+    
+
+        <script src="index.js"></script>
+       
+</body>
+
+
+</html>

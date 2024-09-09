@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.image{
+    size: 10px;
+
+}
+
+body{
+    background-color: rgb(248, 129, 149);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 147px;
+
+}
+.heading p{
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+.main{
+    height: 50px;
+    position: relative;
+}
+.main .you{
+    position:absolute;
+    left: 25%;
+    height: 50px;
+    width: 70px;
+}
+.main .computer{
+    position: absolute;
+    right: 25%;
+    height: 50px;
+    width: 70px;
+}
+.secondsection{
+    height: 360px;
+}
+.secondsection .imagesection{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.secondsection .imagesection .you{
+    position: absolute;
+    /* background-color: black; */
+    height: 288px;
+    left: 17%;
+    width: 307px;
+    top: 31px;
+}
+.secondsection .imagesection .computer{
+    position: absolute;
+    /* background-color: black; */
+    height: 288px;
+    right: 15%;
+    width: 307px;
+    top: 31px;
+}
+.secondsection .imagesection .you .img{
+    position: absolute;
+    left: 43px;
+    top: 17px;
+}
+.secondsection .imagesection .you .img img{
+    background-color: rgb(203, 18, 18);
+    border-radius: 50%;
+
+
+}
+.secondsection .imagesection .computer .img{
+    position: absolute;
+    left: 43px;
+    top: 17px;
+}
+.secondsection .imagesection .computer .img img{
+    background-color: rgb(203, 18, 18);
+    border-radius: 50%;
+
+
+}
+
+.main .result-one{
+    position: absolute;
+    left: 45%;
+    height: 48px;
+    width: 188px;
+    bottom: -182px;
+}
+.main .result-one p{
+    font-weight: 800;
+    font-size: 49px;
+}
+.secondsection .resultsection{
+    position: relative;
+}
+.secondsection .resultsection .your-result{
+    position: absolute;
+    top: 335px;
+    left: 358px;
+}
+.secondsection .resultsection .computer-result{
+    position: absolute;
+    top: 335px;
+    right: 304px;
+}
+.buttonssection{
+    position: relative;
+    height: 100px;
+}
+.buttonssection .buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 49%;
+    position: absolute;
+    left: 416px;
+    top: 44px;
+}
+.buttonssection .buttons .Rock ,.Paper,.scissor{
+    
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(191 75 95);
+}
+.line{
+    position: relative;
+}
+.line .text{
+    position: absolute;
+    left: 688px;
+    top: 12px;
+}
+.line .text .heading-text{
+    font-size: 28px;
+    font-weight: 600;
+}
+.main .you .h1 .para{
+    position: absolute;
+    left: 22px;
+    font-size: 24px;
+}
+.main .computer .h1 .para-2{
+    position: absolute;
+    left: 66px;
+    font-size: 24px;
+}
+.reset-button-div{
+    position: relative;
+}
+.reset-button-div .Reset{
+    position: absolute;
+    left: 740px;
+    border-radius: 20px;
+    border: 1px solid;
+    height: 50px;
+    width: 100px;
+    top: -59px;
+    background-color: rgb(247 190 199);
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
